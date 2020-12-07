@@ -98,12 +98,12 @@
             speed  = 80,
             text   = 'Design. Art. Multimedia. Branding. Print. Web. UI/UX. Logo. Frontend. HTML. CSS. JavaScript. jQuery. Template set up. CMS. Wordpress. Newsletter. Brochure. Catalogue. Banners And Posters. Animation. Motion. Images. Video. Cinemagraph.';
 
-        function goType() {
+        function startType() {
             if (letter < text.length) {
-                var typewriter = document.querySelector("typewriter");
+                var typewriter = document.querySelector(".typewriter");
                 typewriter.innerHTML += text.charAt(letter);
                 letter++;
-                setTimeout(goType, speed);
+                setTimeout(startType, speed);
             }
         }
 
@@ -112,7 +112,7 @@
             contact.classList.add('container__typewriter_contact-is-visible');
         }, 21000);
 
-        goType();
+        startType();
     </script>
 </body>
 </html>
