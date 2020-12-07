@@ -84,7 +84,7 @@
         </div>
 
         <div class="container__typewriter">
-            <p id="typewriter"></p>
+            <p class="typewriter"></p>
                 <p class="container__typewriter_contact">
                     <a href="mailto:natasa@baticka.com" rel="noopener" data-toggle="tooltip" data-placement="top" title="Go ahead, click and say Hello!">Go ahead, say hello </a> <i class="far fa-hand-spock"></i>
                 </p>
@@ -100,7 +100,8 @@
 
         function goType() {
             if (letter < text.length) {
-                document.getElementById("typewriter").innerHTML += text.charAt(letter);
+                var typewriter = document.querySelector("typewriter");
+                typewriter.innerHTML += text.charAt(letter);
                 letter++;
                 setTimeout(goType, speed);
             }
