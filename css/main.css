@@ -136,7 +136,7 @@ a:hover {
 }
 
 .container__typewriter_contact-is-visible {
-    animation: fadein 2s linear forwards;
+    animation: fadein 1s linear forwards;
 }
 
 .container__copyright {
