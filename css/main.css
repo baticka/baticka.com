@@ -7,7 +7,7 @@
 body {
     padding: 0;
     font-family: Dosis, sans-serif;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
     background-color: #e7e5e4;
 }
 
@@ -33,7 +33,7 @@ h1 {
     font-size: 7.1rem;
     line-height: 0;
     text-align: center;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 420px) {
@@ -57,7 +57,7 @@ h1 {
 h4 {
     font-size: 1.3rem;
     text-align: center;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 460px) {
