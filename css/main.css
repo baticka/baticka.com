@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Graceland';
+    src: url('../fonts/graceland.woff2') format('woff2'),
+         url('../fonts/graceland.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* MAIN STYLES */
 @-webkit-keyframes fadein {
     0%   { opacity: 0; }
@@ -29,8 +38,8 @@ a {
 }
 
 h1 {
-    font-family: 'Grand Hotel', cursive;
-    font-size: 7.1rem;
+    font-family: 'Graceland', cursive;
+    font-size: 5rem;
     line-height: 0;
     text-align: center;
     text-rendering: optimizeLegibility;
@@ -38,19 +47,13 @@ h1 {
 
 @media (min-width: 420px) {
     h1 {
-        font-size: 9rem;
+        font-size: 5rem;
     }
 }
 
 @media (min-width: 560px) {
     h1 {
-        font-size: 11rem;
-    }
-}
-
-@media (min-width: 620px) {
-    h1 {
-        font-size: 13rem;
+        font-size: 8rem;
     }
 }
 
@@ -119,8 +122,9 @@ a:hover {
     text-align: center;
 }
 
-.fab {
-    font-size: 1.5rem !important;
+.fab,
+.fas {
+    font-size: 1.3rem !important;
 }
 
 .container__typewriter_contact {
