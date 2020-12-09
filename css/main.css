@@ -39,15 +39,15 @@ a {
 
 h1 {
     font-family: 'Graceland', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 0;
     text-align: center;
     text-rendering: optimizeLegibility;
 }
 
-@media (min-width: 420px) {
+@media (min-width: 360px) {
     h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 }
 
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .container__typewriter {
-    padding: 2rem 1rem;
+    padding: 2rem;
     line-height: 2rem;
     color: #2b2a2a;
 }
@@ -197,19 +197,13 @@ ul.color li {
 }
 
 .container__portfolio_wrapper {
+    padding: 1.5rem 0;
     text-align: center;
-    border-bottom: 1px solid #d6d4d3;
-}
-
-.container__portfolio_wrapper:nth-child(4) {
-    padding-bottom: 1rem;
-    border: none !important;
 }
 
 @media (min-width: 620px) {
     .container__portfolio_wrapper {
         text-align: left;
-        border-bottom: none;
     }
 }
 
